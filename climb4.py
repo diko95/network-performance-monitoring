@@ -21,4 +21,3 @@ req.add_header('Content-Type', 'application/json')
 
 response = urllib2.urlopen(req, json.dumps(data))'''
 
-#curl -i -H "Content-Type: application/json" -X POST -d '{"username":"nikhil","password":"mara"}' http://localhost:5000/login
